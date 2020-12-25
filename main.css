@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    font-size: 3rem;
+    font-size: 2rem;
     height: 95vh;
     margin: 0;
     background-color: black;
@@ -34,6 +34,7 @@ a:link {
 
 span {
     cursor: pointer;
+    margin: 0rem 2rem;
 }
 
 span:hover {
@@ -55,52 +56,67 @@ span:hover {
     background: url(img/quadrantids-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-2 {
     background: url(img/lunar-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-3 {
     background: url(img/annular-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-4 {
     background: url(img/perseid-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-5 {
     background: url(img/eta-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-6 {
     background: url(img/geminids-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-7 {
     background: url(img/tempel-background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-8 {
     background: url(img/aphosis-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .case-9 {
     background: url(img/halley-background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 550px) {
+    body {
+        font-size: 1.5rem;
+    }
 }

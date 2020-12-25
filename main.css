@@ -34,7 +34,6 @@ a:link {
 
 span {
     cursor: pointer;
-    margin: 0rem 2rem;
 }
 
 span:hover {
@@ -48,6 +47,7 @@ span:hover {
     height: 100%;
     width: 100%;
     backdrop-filter: blur(3px);
+    padding: 0rem 2rem;
 }
 
 /* Cases */
@@ -113,6 +113,12 @@ span:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (max-width: 950px) {
+    body {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 550px) {

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap'); */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin: 4rem 0rem;
+    width: 10%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 10rem 3rem 3rem 3rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3 {
+    margin: 5rem 4rem 0rem 4rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+    backdrop-filter: grayscale(0.5) opacity(1.0) blur(10px) brightness(60%);
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 935px) {
+    h1 {
+        font-size: 2.3rem;
+        margin: 8rem 3rem 3rem 3rem;
+    }
+
+    img {
+        margin: 3rem 0rem 2rem 0rem;
+    }
+    
+    h3 {
+        margin: 0rem 4rem 2rem 4rem;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .countdown-container {
+        font-size: 1.8rem;
+    }
+
+    .countdown-el {
+        margin-bottom: 3rem;
+    }
+}
+
+a {
+    color: rgb(8, 205, 219) !important;
+    font-weight: 600;
+}
+
+h3 > a:link {
+    text-decoration: none !important;
+}
+
+#back {
+    margin: 2rem 0rem;
+}

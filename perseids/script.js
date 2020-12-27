@@ -14,13 +14,31 @@ function countdown() {
 
     document.getElementById("years").innerHTML = years;
     document.getElementById("days").innerHTML = formatTime(days);
+    if (days<=0) {
+        document.getElementById("days").innerHTML = days;
+    }
     document.getElementById("hours").innerHTML = formatTime(hours);
+    if (hours<=0) {
+        document.getElementById("hours").innerHTML = hours;
+    }
     document.getElementById("minutes").innerHTML = formatTime(minutes);
+    if (minutes<=0) {
+        document.getElementById("minutes").innerHTML = minutes;
+    }
     document.getElementById("seconds").innerHTML = formatTime(seconds);
     
     function formatTime(time) {
         return time < 10 ? `0${time}` : time;
     }
+
+    if(totalSeconds <=0) {
+        document.getElementById("years").innerHTML = '0';
+        document.getElementById("days").innerHTML = '0';
+        document.getElementById("hours").innerHTML = '0';
+        document.getElementById("minutes").innerHTML = '0';
+        document.getElementById("seconds").innerHTML = '0';
+    }
+
 }
 
 setInterval(countdown, 1000);

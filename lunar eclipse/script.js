@@ -14,15 +14,15 @@ function countdown() {
 
     document.getElementById("years").innerHTML = years;
     document.getElementById("days").innerHTML = formatTime(days);
-    if (days<=0) {
+    if (days<=10) {
         document.getElementById("days").innerHTML = days;
     }
     document.getElementById("hours").innerHTML = formatTime(hours);
-    if (hours<=0) {
+    if (hours<=10) {
         document.getElementById("hours").innerHTML = hours;
     }
     document.getElementById("minutes").innerHTML = formatTime(minutes);
-    if (minutes<=0) {
+    if (minutes<=10) {
         document.getElementById("minutes").innerHTML = minutes;
     }
     document.getElementById("seconds").innerHTML = formatTime(seconds);

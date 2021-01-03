@@ -12,6 +12,16 @@ body {
     height: 95vh;
     margin: 0;
     background-color: black;
+    animation: show 3s ease forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .row>* {

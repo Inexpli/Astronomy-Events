@@ -1,3 +1,3 @@
 # Astronomy Events
  
-https://jezjakub.github.io/Astronomy-Events/
+https://inexpli.github.io/Astronomy-Events/

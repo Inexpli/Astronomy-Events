@@ -58,6 +58,13 @@ h3 {
     font-size: 1.4rem;
 }
 
+#info {
+    color: rgb(19, 198, 243) !important;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 @media (max-width: 860px) {
     h1 {
         font-size: 2.3rem;

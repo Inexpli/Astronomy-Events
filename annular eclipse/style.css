@@ -26,13 +26,13 @@ img {
 
 h1 {
     font-size: 3rem;
-    margin: 12rem 3rem 3rem 3rem;
+    margin: 8rem 3rem 3rem 3rem;
     font-weight: normal;
     text-align: center;
 }
 
 h3 {
-    margin: 9rem 4rem 0rem 4rem;
+    margin: 4rem 4rem 0rem 4rem;
     font-weight: normal;
     text-align: center;
 }
@@ -57,6 +57,13 @@ h3 {
 
 .countdown-el span {
     font-size: 1.4rem;
+}
+
+#info {
+    color: rgb(248, 206, 19) !important;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 @media (max-width: 935px) {

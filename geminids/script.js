@@ -37,6 +37,7 @@ function countdown() {
         document.getElementById("hours").innerHTML = '0';
         document.getElementById("minutes").innerHTML = '0';
         document.getElementById("seconds").innerHTML = '0';
+        document.getElementById("info").innerHTML = 'Event has occured';
     }
 
 }

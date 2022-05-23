@@ -1,4 +1,4 @@
-const Event = '15:28 3 Jan 2021 UTC';
+const Event = '10:41:51 10 Jun 2021 UT';
 
 function countdown() {
     const EventDate = new Date(Event);
@@ -37,6 +37,7 @@ function countdown() {
         document.getElementById("hours").innerHTML = '0';
         document.getElementById("minutes").innerHTML = '0';
         document.getElementById("seconds").innerHTML = '0';
+        document.getElementById("info").innerHTML = 'Event has occured';
     }
 
 }
